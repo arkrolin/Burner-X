@@ -2,5 +2,11 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "installCommand": null,
-  "devCommand": null
+  "devCommand": null,
+  "rewrites": [
+    {
+      "source": "/api/mimo/:path*",
+      "destination": "https://token-plan-cn.xiaomimimo.com/:path*"
+    }
+  ]
 }
